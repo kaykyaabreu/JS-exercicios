@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>confirmaçao</title>
+</head>
+<body>
+
+    <h1>voce e estrangeiro ou brasileiro?</h1>
+    <label for="pais"> de qual pais voce e</label> <input type="text" name="pais" id="pais">
+    <input type="button" value="calcular" onclick="banana()">
+    <div id="res"></div>
+    <script>
+        var pais = window.document.getElementById('pais').value
+        var res = window.document.getElementById('res')
+
+        function banana(){
+            var pais = window.document.getElementById('pais').value
+            var res = window.document.getElementById('res')
+            
+            if(pais.toLowerCase() == 'brasil'){
+                res.innerHTML = `<p>brasiliero</p>`
+            }else{
+                res.innerHTML = `<p>extrangeiro</p>`
+            }
+        }
+        
+        
+    </script>
+</body>
+</html>
