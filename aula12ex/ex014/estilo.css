@@ -1,0 +1,40 @@
+body{
+background-color: rgb(108, 108, 241);
+font: normal 15pt Arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.377) ;
+}
+
+section > div#msg{
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section > div > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+div#foto {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
