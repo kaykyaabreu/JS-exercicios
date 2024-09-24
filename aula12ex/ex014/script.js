@@ -5,7 +5,7 @@ var img = window.document.getElementById('imagem')
 var fot= window.document.getElementById('fot')
 var data = new Date()
 var hora = data.getHours()
-//var hora = 14
+//var hora = 8
 msg.innerHTML = `Agora sao ${hora} horas`
 
 if(hora >= 0 && hora < 12){
